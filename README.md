@@ -62,6 +62,7 @@ Output:
 Testing and Invocation
 ----------------------
 Run `log_processor.py` with the log filenames as arguments: 
+
 ```python log_processor.py log-0.log log-1.log log-2.log log-3.log```
 
 In another session run ```ruby log-gen.rb``` to generate a set of log files for testing. 
