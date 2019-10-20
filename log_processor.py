@@ -183,7 +183,6 @@ def main():
                 where = file.tell()
                 line = file.readline()
                 if not line:
-                    time.sleep(1)
                     file.seek(where)
                 else:
                     log_line = parse_line(line)
