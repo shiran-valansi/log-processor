@@ -14,6 +14,11 @@ The program identifies users that trigger the sequence `A, B, C` at some point d
 
 The log files are streams, and as such can be actively appended to while the program is running, so **the program should continue to report matches in an online fashion as new logs are generated.** The program should continue to run until interrupted by the user by e.g. ctrl-C.
 
+To clear the log files and start over, run:
+```
+sh clear-logs.sh
+```
+
 
 Example:
 ----------------------------------------
